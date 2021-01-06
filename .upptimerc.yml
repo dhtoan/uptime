@@ -1,26 +1,16 @@
-# Change these first
-owner: dhtoan # Your GitHub username
-repo: uptime # Your GitHub repository name
+owner: dhtoan
+repo: uptime
 
-# Add your sites here
 sites:
   - name: Doligo
     url: https://www.doligo.net
 
 status-website:
-  # Add your custom domain below, or remove the next line if you don't have a domain
   cname: up.doligo.net
-  # Uncomment the following line if you don't have a custom domain and add your repo name
-  # baseUrl: /uptime
   logoUrl: https://www.doligo.net/wp-content/uploads/assets/images/logo.png
-  name: Doligo Uptime
-  introTitle: "**Doligo Uptime** is the open-source uptime monitor and status page"
-  introMessage: This is a sample status page which uses **real-time** data for [Doligo](https://www.doligo.net).
+  name: Doligo
   navbar:
     - title: Status
       href: /
-    - title: Doligo
-      href: https://www.doligo.net
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
