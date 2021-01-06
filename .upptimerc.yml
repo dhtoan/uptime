@@ -1,11 +1,11 @@
 # Change these first
-owner: upptime # Your GitHub username
-repo: upptime # Your GitHub repository name
+owner: dhtoan # Your GitHub username
+repo: uptime # Your GitHub repository name
 
 # Add your sites here
 sites:
-  - name: Google
-    url: https://www.google.com
+  - name: Doligo
+    url: https://www.doligo.net
   - name: Wikipedia
     url: https://en.wikipedia.org
   - name: Hacker News
@@ -20,18 +20,18 @@ sites:
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
-  cname: demo.upptime.js.org
+  cname: uptime.doligo.net
   # Uncomment the following line if you don't have a custom domain and add your repo name
   # baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://www.doligo.net/wp-content/uploads/assets/images/logo.png
+  name: Doligo Uptime
+  introTitle: "**Doligo Uptime** is the open-source uptime monitor and status page"
+  introMessage: This is a sample status page which uses **real-time** data for [Doligo](https://www.doligo.net).
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Doligo
+      href: https://www.doligo.net
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
